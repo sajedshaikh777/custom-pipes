@@ -1,1 +1,613 @@
-/* You can add global styles to this file, and also import other style files */
+/* Bootstrap overrides */
+
+html {
+    font-size: 55.5%;
+    -webkit-font-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  body {
+    font-size: 1rem;
+    background: #dbd9d2 !important;
+  }
+  
+  .main-content {
+    padding: 0;
+  }
+  
+  .content-wrapper {
+    background: #ffffff;
+  }
+  
+  .component {
+    min-height: 45rem;
+    padding: 0 2rem 2rem 2rem;
+  }
+  
+  .component .row {
+    padding-bottom: 3rem;
+  }
+  
+  h1 {
+    font-size: 2.8rem;
+  }
+  
+  .content-wrapper h2 {
+    font-size: 2.8rem;
+    margin: 3rem 0;
+    color: #333333;
+  }
+  
+  .content-wrapper h3 {
+    font-size: 2.2rem;
+    margin: 3rem 0;
+    color: #333333;
+  }
+  
+  .content-wrapper .description p {
+    margin: 0 0 3rem 0;
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  
+  label {
+    margin: 0 !important;
+    font-size: 1.6rem;
+  }
+  
+  .button-jade {
+    font-size: 1.4rem;
+    color: #ffffff;
+    cursor: pointer;
+    background: #008580;
+    padding: 1.2rem 2rem;
+    outline: 0;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    line-height: 100%;
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+  }
+  
+  .button-jade:hover,
+  .button-jade:focus {
+    background: #00716c;
+    outline: none;
+  }
+  
+  .button-primary {
+    background: #db0011;
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 100%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .button-primary:focus,
+  .button-primary:hover {
+    background: #af000d;
+    outline: none;
+  }
+  
+  .button-primary.is-disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  .button-secondary {
+    background: #ffffff;
+    font-size: 1.6rem;
+    color: #333333;
+    padding: 1.5rem 2rem;
+    border: 0.1rem solid #333333;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 100%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .button-secondary:focus,
+  .button-secondary:hover {
+    background: #ededed;
+    outline: none;
+  }
+  
+  .button-edit {
+    background: #ffffff;
+    font-size: 1.6rem;
+    color: #333333;
+    padding: 0;
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 100%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .button-edit:focus,
+  .button-edit:hover {
+    background: #ffffff;
+    outline: none;
+  }
+  
+  .button-cancel {
+    background: transparent;
+    font-size: 1.6rem;
+    color: #333333;
+    padding: 1.5rem 2rem;
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 100%;
+    cursor: pointer;
+  }
+  
+  .button-cancel:focus,
+  .button-cancel:hover {
+    text-decoration: underline;
+    outline: none;
+  }
+  
+  .button-cancel.is-disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  .button-slate {
+    background: #4d6474;
+    font-size: 1.6rem;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
+    border: 0.1rem solid #4d6474;
+    outline: 0;
+    text-decoration: none;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    line-height: 100%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .button-slate:focus,
+  .button-slate:hover {
+    background: #3e505d;
+    border: 0.1rem solid #3e505d;
+    outline: none;
+  }
+  
+  .button-slate.is-disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  /* Bootstrap overrides */
+  
+  .left-navigation {
+    background: #ededed;
+  }
+  
+  .line-separator {
+    width: 100%;
+    border-bottom: 0.1rem solid #000000;
+    opacity: 0.15;
+    min-height: 1px;
+  }
+  
+  /* Page overlay spinner */
+  
+  .blur-container {
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+  }
+  
+  /* End Page overlay spinner */
+  
+  /* Step tracker */
+  
+  .step-counter {
+    height: 0.5rem;
+    background: #eeedeb;
+  }
+  
+  .step-indicator-1 {
+    width: 33.33%;
+  }
+  
+  .step-indicator-2 {
+    width: 66.66%;
+  }
+  
+  .step-indicator-3 {
+    width: 100%;
+  }
+  
+  .step-indicator {
+    height: 0.5rem;
+    background: #db0011;
+  }
+  
+  /* End Step tracker */
+  
+  /* From Account dropdown */
+  
+  .no-from-account .select-target.select-theme-default,
+  .no-from-account .select-target.select-theme-default:hover,
+  .no-from-account .select-target.select-theme-default:focus {
+    border: 0.1rem solid #929292 !important;
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .account-details {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  /* End From Account dropdown */
+  
+  /* Date Picker overrides */
+  
+  .date-picker .mat-form-field-wrapper {
+    padding: 0;
+  }
+  
+  .date-picker svg {
+    display: none;
+  }
+  
+  .mat-icon-button {
+    display: inline-block !important;
+    font: normal normal normal 14px/1 FontAwesome !important;
+    font-size: inherit !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+  
+  .mat-icon-button::after {
+    content: "\f073";
+    font-size: 1.5rem;
+    color: #333333;
+  }
+  
+  .mat-form-field-flex {
+    border: 0.1rem solid #929292;
+    padding: 1rem;
+  }
+  
+  .mat-form-field-infix {
+    padding: 0 !important;
+    margin: 0 !important;
+    border-top: 0 !important;
+  }
+  
+  .mat-form-field-underline {
+    background-color: transparent !important;
+  }
+  
+  .mat-focused .mat-form-field-underline .mat-input-ripple,
+  .mat-form-field-invalid .mat-form-field-underline .mat-form-field-ripple {
+    visibility: hidden !important;
+  }
+  
+  input.mat-input-element {
+    margin-top: 0 !important;
+    vertical-align: middle !important;
+  }
+  
+  .mat-form-field-label-wrapper {
+    top: 0 !important;
+    padding-top: 0 !important;
+  }
+  
+  .date-picker .mat-input-element {
+    font-size: 1.4rem;
+  }
+  
+  .mat-form-field-flex {
+    align-items: center !important;
+  }
+  
+  .mat-form-field-label.mat-form-field-placeholder {
+    top: 0 !important;
+    color: #333333 !important;
+    padding: 0;
+    margin: 0.2rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .cdk-overlay-container {
+    z-index: 1050 !important;
+  }
+  
+  .mat-calendar-body-selected {
+    background: #008580 !important;
+    color: #ffffff !important;
+  }
+  
+  .mat-calendar-body-cell-content {
+    border-radius: 0 !important;
+  }
+  
+  .mat-calendar-previous-button.mat-icon-button.cdk-focused.cdk-keyboard-focused,
+  .mat-calendar-next-button.mat-icon-button.cdk-focused.cdk-keyboard-focused {
+    background: #008580 !important;
+    border-radius: 0 !important;
+    outline: none !important;
+  }
+  
+  .mat-calendar-next-button::after,
+  .mat-calendar-previous-button::after {
+    color: #008580 !important;
+  }
+  
+  .mat-calendar-previous-button.mat-icon-button.cdk-focused.cdk-keyboard-focused::after,
+  .mat-calendar-next-button.mat-icon-button.cdk-focused.cdk-keyboard-focused::after {
+    color: #ffffff !important;
+  }
+  
+  .mat-button-ripple.mat-ripple.mat-button-ripple-round div {
+    background: transparent !important;
+    border-radius: 0 !important;
+  }
+  
+  .cdk-keyboard-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected),
+  .cdk-program-focused .mat-calendar-body-active>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected),
+  :not(.mat-calendar-body-disabled):hover>.mat-calendar-body-cell-content:not(.mat-calendar-body-selected) {
+    background: #008580 !important;
+    color: #ffffff !important;
+    border-radius: 0 !important;
+    outline: none !important;
+  }
+  
+  .mat-calendar-arrow {
+    display: none !important;
+  }
+  
+  .mat-calendar-period-button .mat-button-wrapper {
+    border-right: 0.1rem solid #9c9c9c;
+    padding: 0 1rem 0 0;
+  }
+  
+  .mat-calendar-period-button::after {
+    content: "\f078";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 0 0 1rem;
+    color: #008580 !important;
+  }
+  
+  .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+    padding-bottom: 0 !important;
+  }
+  
+  .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: transparent !important;
+    height: 0 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  /* .mat-form-field-appearance-legacy .mat-form-field-label {
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  .mat-form-field-appearance-legacy.mat-form-field-can-float.mat-form-field-should-float.mat-form-field-label {
+    transform: none !important;
+    transition: none !important;
+  } */
+  
+  .mat-form-field-appearance-legacy .mat-form-field-label {
+    top: 0.2rem !important;
+    font-size: 1.2rem !important;
+    color: #333333 !important;
+  }
+  
+  .mat-calendar-next-button.mat-icon-button[disabled][disabled]::after,
+  .mat-calendar-previous-button.mat-icon-button[disabled][disabled]::after {
+    color: rgba(0, 0, 0, .26) !important;
+  }
+  
+  /* End Date Picker overrides */
+  
+  /* Radio group overrides */
+  
+  .mat-radio-label-content {
+    padding: 0 1.5rem 0 1rem !important;
+  }
+  
+  .mat-radio-outer-circle,
+  .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+    border: 0.1rem solid #929292 !important;
+  }
+  
+  .mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background: #008580 !important;
+  }
+  
+  .mat-radio-ripple.mat-ripple div {
+    background: transparent !important;
+  }
+  
+  .payee-radio-list .payee-nick-name {
+    color: #333333;
+    font-size: 1.6rem;
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    padding: 0 1rem 0 0;
+    word-wrap: break-word;
+    font-family: Lato;
+    font-weight: 700;
+  }
+  
+  .payee-radio-list .payee-account-number {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+  }
+  
+  .payee-radio-list .available-balance {
+    display: inline-block;
+    text-align: right;
+    width: 35%;
+    vertical-align: top;
+  }
+  
+  .payee-radio-list .payee-currency-type {
+    font-size: 1.2rem;
+    color: #767676;
+    padding: 0 0.7rem 0 0;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 1.6rem;
+    zoom: 1;
+  }
+  
+  .payee-radio-list .payee-balance {
+    color: #333333;
+    font-size: 1.8rem;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+  }
+  
+  .payee-radio-list .mat-radio-label {
+    width: 100%;
+    white-space: normal !important;
+    padding: 2.2rem 0 2.8rem;
+    line-height: 2rem;
+    align-items: flex-start !important;
+    border-top: 0.1rem solid #d7d8d6;
+  }
+  
+  .payee-radio-list .mat-radio-button {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .payee-radio-list .mat-radio-button.mat-accent:first-child .mat-radio-label {
+    border-top: none;
+  }
+  
+  .payee-radio-list .mat-radio-label-content {
+    width: 100%;
+  }
+  
+  /* End Radio group overrides */
+  
+  /* Checkbox group overrides */
+  
+  .mat-checkbox-frame {
+    border: 0.1rem solid #929292 !important;
+    border-radius: 0 !important;
+  }
+  
+  .mat-checkbox-checked.mat-accent .mat-checkbox-background,
+  .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background: transparent !important;
+  }
+  
+  .mat-checkbox-checkmark .mat-checkbox-checkmark-path {
+    stroke: #005e69 !important;
+  }
+  
+  .mat-checkbox-checkmark {
+    padding: 0.3rem;
+  }
+  
+  .mat-checkbox-ripple.mat-ripple div {
+    background: transparent !important;
+  }
+  
+  .payee-billers-details .mat-checkbox-inner-container {
+    vertical-align: top;
+  }
+  
+  .payee-billers-details .mat-checkbox-layout {
+    display: inline-block !important;
+    padding: 2.2rem 0 2rem;
+    margin: 0;
+    width: 100%;
+    white-space: normal;
+  }
+  
+  .payee-billers-details .mat-checkbox-layout .mat-checkbox-label {
+    width: 90%;
+    display: inline-block;
+  }
+  
+  /* End Checkbox group overrides */
+  
+  /* Header */
+  
+  .header {
+    background: #515358;
+    height: 5rem;
+  }
+  
+  /* End Header */
+  
+  /* Footer */
+  
+  .footer {
+    background: #515358;
+    height: 5rem;
+  }
+  
+  /* End Footer */
+  
+  /* Body */
+  
+  .main-content {
+    margin: 4rem 0;
+  }
+  
+  /* End Body */
+  
+  /* Custom reusable classes */
+  
+  .pt-25 {
+    padding: 2.5rem 0 0 0;
+  }
+  
+  .ml-05 {
+    margin: 0 0 0 0.5rem;
+  }
+  
+  /* End Custom reusable classes */
+  
+  
+  /* Flag css overrides */
+  .flag-icon.flag-icon-squared {
+    font-size: 2rem;
+  }
+  /* Flag css overrides End */
